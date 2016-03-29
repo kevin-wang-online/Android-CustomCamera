@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@android:color/holo_red_light" android:state_selected="true"/>
+    <item android:drawable="@color/colorMelo" android:state_pressed="true"/>
+    <item android:drawable="@android:color/transparent"/>
+
+    <item android:drawable="@color/bule_overlay" android:state_checked="true"/>
+    <!-- focused -->
+    <item android:drawable="@color/none_color" android:state_checked="false"/>
+
+</selector>

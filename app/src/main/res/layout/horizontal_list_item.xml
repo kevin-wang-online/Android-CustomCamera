@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:clickable="true"
+    android:background="@drawable/selector_item_background">
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/img_list_item"-->
+        <!--android:layout_width="50dip"-->
+        <!--android:layout_height="50dip"/>-->
+
+    <FrameLayout
+        android:layout_width="66dip"
+        android:layout_height="66dip">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.freewave.horizontallistview.customborderimageview.CustomImageView
+                android:id="@+id/img_list_item"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                zhy:borderRadius="8dp"
+                zhy:type="round" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- 删除按钮 -->
+            <Button
+                android:id="@+id/deleteImageButton"
+                android:layout_width="19dip"
+                android:layout_height="19dip"
+                android:background="@drawable/cameradeletebutton"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/text_list_item"-->
+        <!--android:layout_width="50dip"-->
+        <!--android:layout_height="25dip"-->
+        <!--android:gravity="center"/>-->
+
+
+
+
+</LinearLayout>
